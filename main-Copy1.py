@@ -20,7 +20,7 @@ from sklearn import metrics
 
 
 #test master branch
-
+#为了截图
 parser = argparse.ArgumentParser()
 parser.add_argument('--out_dir',  type=str, default='/work/lt187/yhli/stDNN_v2/output')
 parser.add_argument('--data_dir', type=str, default='/work/lt187/yhli/stDNN_v2/data')
