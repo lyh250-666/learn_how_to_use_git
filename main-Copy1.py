@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# #### ltu, 2022/10/20
-# #### Modify the code to use a unify interface
-
-# In[14]:
-
 
 import torch
 import numpy as np
@@ -23,7 +15,7 @@ from sklearn.metrics import roc_curve,auc, roc_auc_score
 from sklearn.preprocessing import LabelBinarizer
 from sklearn import metrics
 
-
+#新增一行注释
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--out_dir',  type=str, default='/work/lt187/yhli/stDNN_v2/output')
